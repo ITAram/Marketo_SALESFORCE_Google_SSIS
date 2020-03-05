@@ -1,0 +1,6 @@
+c:\users\071581\documents\visual studio 2013\Projects\MarketoImport\MarketoImport\bin\Debug\MarketoImport.exe.config
+C:\Users\071581\documents\visual studio 2013\Projects\MarketoImport\MarketoImport\obj\Debug\MarketoImport.csprojResolveAssemblyReference.cache
+C:\Users\071581\documents\visual studio 2013\Projects\MarketoImport\MarketoImport\bin\Debug\MarketoImport.exe
+C:\Users\071581\documents\visual studio 2013\Projects\MarketoImport\MarketoImport\bin\Debug\MarketoImport.pdb
+C:\Users\071581\documents\visual studio 2013\Projects\MarketoImport\MarketoImport\obj\Debug\MarketoImport.exe
+C:\Users\071581\documents\visual studio 2013\Projects\MarketoImport\MarketoImport\obj\Debug\MarketoImport.pdb

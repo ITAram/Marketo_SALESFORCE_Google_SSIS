@@ -1,0 +1,6 @@
+c:\users\071581\documents\visual studio 2013\Projects\SalesForceImport\SalesForceImport\bin\Debug\SalesForceImport.exe.config
+c:\users\071581\documents\visual studio 2013\Projects\SalesForceImport\SalesForceImport\bin\Debug\SalesForceImport.exe
+c:\users\071581\documents\visual studio 2013\Projects\SalesForceImport\SalesForceImport\bin\Debug\SalesForceImport.pdb
+c:\users\071581\documents\visual studio 2013\Projects\SalesForceImport\SalesForceImport\obj\Debug\SalesForceImport.csprojResolveAssemblyReference.cache
+c:\users\071581\documents\visual studio 2013\Projects\SalesForceImport\SalesForceImport\obj\Debug\SalesForceImport.exe
+c:\users\071581\documents\visual studio 2013\Projects\SalesForceImport\SalesForceImport\obj\Debug\SalesForceImport.pdb

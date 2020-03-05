@@ -1,0 +1,16 @@
+c:\users\071581\documents\visual studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\AdWordsImport.exe.config
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\obj\Debug\AdWordsImport.csprojResolveAssemblyReference.cache
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\AdWordsImport.exe
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\AdWordsImport.pdb
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.Ads.Common.dll
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.AdWords.dll
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.Ads.Common.xml
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.AdWords.xml
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\obj\Debug\AdWordsImport.exe
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\obj\Debug\AdWordsImport.pdb
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.GData.Analytics.dll
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.GData.Client.dll
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Google.GData.Extensions.dll
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Newtonsoft.Json.dll
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\071581\Documents\Visual Studio 2013\Projects\AdWordsImport\AdWordsImport\bin\Debug\Newtonsoft.Json.xml

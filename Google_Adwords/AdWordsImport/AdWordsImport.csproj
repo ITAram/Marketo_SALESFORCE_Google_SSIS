@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C59A2BCA-0C1B-491D-A0EF-9E7DB03F59D5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdWordsImport</RootNamespace>
+    <AssemblyName>AdWordsImport</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.Ads.Common">
+      <HintPath>..\packages\Google.Ads.Common.2.0.0\lib\net20\Google.Ads.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.AdWords">
+      <HintPath>..\packages\Google.AdWords.16.4.0\lib\net20\Google.AdWords.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Analytics">
+      <HintPath>..\packages\Google.GData.Analytics.2.2.0.0\lib\Google.GData.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client">
+      <HintPath>..\packages\Google.GData.Client.2.2.0.0\lib\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions">
+      <HintPath>..\packages\Google.GData.Extensions.2.2.0.0\lib\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalyticsAdWordsCombinedImport.cs" />
+    <Compile Include="ExampleBase.cs" />
+    <Compile Include="ExampleUtilities.cs" />
+    <Compile Include="OAuth\ConsoleExample.cs" />
+    <Compile Include="OAuth\Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\Default.aspx.designer.cs" />
+    <Compile Include="OAuth\OAuthLogin.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\OAuthLogin.aspx.designer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v201309\AccountManagement\CreateAccount.cs" />
+    <Compile Include="v201309\AccountManagement\GetAccountAlerts.cs" />
+    <Compile Include="v201309\AccountManagement\GetAccountChanges.cs" />
+    <Compile Include="v201309\AccountManagement\GetAccountHierarchy.cs" />
+    <Compile Include="v201309\AdvancedOperations\AddAdGroupBidModifier.cs" />
+    <Compile Include="v201309\AdvancedOperations\AddClickToDownloadAd.cs" />
+    <Compile Include="v201309\AdvancedOperations\AddSiteLinks.cs" />
+    <Compile Include="v201309\AdvancedOperations\GetAdGroupBidModifiers.cs" />
+    <Compile Include="v201309\AdvancedOperations\UploadOfflineConversions.cs" />
+    <Compile Include="v201309\AdvancedOperations\UseSharedBiddingStrategy.cs" />
+    <Compile Include="v201309\BasicOperations\AddAdGroupDemographicCriteria.cs" />
+    <Compile Include="v201309\BasicOperations\AddAdGroups.cs" />
+    <Compile Include="v201309\BasicOperations\AddCampaigns.cs" />
+    <Compile Include="v201309\BasicOperations\AddKeywords.cs" />
+    <Compile Include="v201309\BasicOperations\AddTextAds.cs" />
+    <Compile Include="v201309\BasicOperations\DeleteAd.cs" />
+    <Compile Include="v201309\BasicOperations\DeleteAdGroup.cs" />
+    <Compile Include="v201309\BasicOperations\DeleteCampaign.cs" />
+    <Compile Include="v201309\BasicOperations\DeleteKeyword.cs" />
+    <Compile Include="v201309\BasicOperations\GetAdGroups.cs" />
+    <Compile Include="v201309\BasicOperations\GetCampaigns.cs" />
+    <Compile Include="v201309\BasicOperations\GetCampaignsWithAwql.cs" />
+    <Compile Include="v201309\BasicOperations\GetKeywords.cs" />
+    <Compile Include="v201309\BasicOperations\GetTextAds.cs" />
+    <Compile Include="v201309\BasicOperations\PauseAd.cs" />
+    <Compile Include="v201309\BasicOperations\UpdateAdGroup.cs" />
+    <Compile Include="v201309\BasicOperations\UpdateCampaign.cs" />
+    <Compile Include="v201309\BasicOperations\UpdateKeyword.cs" />
+    <Compile Include="v201309\CampaignManagement\AddExperiment.cs" />
+    <Compile Include="v201309\CampaignManagement\AddKeywordsInBulk.cs" />
+    <Compile Include="v201309\CampaignManagement\AddLocationExtension.cs" />
+    <Compile Include="v201309\CampaignManagement\GetAllDisapprovedAds.cs" />
+    <Compile Include="v201309\CampaignManagement\GetAllDisapprovedAdsWihAwql.cs" />
+    <Compile Include="v201309\CampaignManagement\PromoteExperiment.cs" />
+    <Compile Include="v201309\CampaignManagement\SetAdParameters.cs" />
+    <Compile Include="v201309\CampaignManagement\SetBidModifier.cs" />
+    <Compile Include="v201309\CampaignManagement\ValidateTextAd.cs" />
+    <Compile Include="v201309\ErrorHandling\HandlePartialFailures.cs" />
+    <Compile Include="v201309\ErrorHandling\HandlePolicyViolationError.cs" />
+    <Compile Include="v201309\ErrorHandling\HandleRateExceededError.cs" />
+    <Compile Include="v201309\ErrorHandling\HandleTwoFactorAuthorizationError.cs" />
+    <Compile Include="v201309\Miscellaneous\GetAllVideosAndImages.cs" />
+    <Compile Include="v201309\Miscellaneous\UploadImage.cs" />
+    <Compile Include="v201309\Optimization\EstimateKeywordTraffic.cs" />
+    <Compile Include="v201309\Optimization\GetAdGroupBidSimulations.cs" />
+    <Compile Include="v201309\Optimization\GetKeywordBidSimulations.cs" />
+    <Compile Include="v201309\Optimization\GetKeywordIdeas.cs" />
+    <Compile Include="v201309\Optimization\GetPlacementIdeas.cs" />
+    <Compile Include="v201309\Remarketing\AddAudience.cs" />
+    <Compile Include="v201309\Remarketing\AddConversionTracker.cs" />
+    <Compile Include="v201309\Reporting\DownloadCriteriaReport.cs" />
+    <Compile Include="v201309\Reporting\DownloadCriteriaReportWithAwql.cs" />
+    <Compile Include="v201309\Reporting\GetReportFields.cs" />
+    <Compile Include="v201309\Targeting\AddCampaignTargetingCriteria.cs" />
+    <Compile Include="v201309\Targeting\GetCampaignTargetingCriteria.cs" />
+    <Compile Include="v201309\Targeting\GetTargetableLanguagesAndCarriers.cs" />
+    <Compile Include="v201309\Targeting\LookupLocation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
